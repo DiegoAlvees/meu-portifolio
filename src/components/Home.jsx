@@ -2,20 +2,23 @@ import Link from "./Link";
 
 export default function Home() {
   const links = [
-    { text: "Home", target: "home" },
+    { text: "", target: "home" },
     { text: "Sobre mim", target: "sobre" },
     { text: "Skills", target: "skills" },
     { text: "Portifólio", target: "portifolio" },
+    { text: "Contato", target: "contato" },
   ];
 
   return (
     <section id="home" className="h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white">
       <header className="fixed top-0 left-0 right-0 flex items-center justify-between bg-transparent text-white p-6 z-50 shadow-lg backdrop-blur-md">
-        <div className="">
-            <img className="w-60 " src="/diegologo.svg" alt="" />
-        </div>
-        <nav className="space-x-8">
-          {links.map((link, index) => (
+      <div>
+    <a href="#home" title="Voltar ao início">
+      <img className="w-60 hover:opacity-80 transition-opacity" src="/diegologo.svg" alt="Logo Diego Alves" />
+    </a>
+  </div>
+  <nav className="space-x-8 flex flex-wrap justify-center md:justify-end">
+  {links.map((link, index) => (
             <Link
               key={index}
               link={link}

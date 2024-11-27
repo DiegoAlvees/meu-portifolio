@@ -23,7 +23,7 @@ export default function Sobre() {
             <p className="text-lg leading-relaxed">
               Confira meus{" "}
               <a
-                href="#portfolio"
+                href="#portifolio"
                 className="text-teal-400 underline hover:text-teal-300 transition-colors"
               >
                 projetos
@@ -31,7 +31,7 @@ export default function Sobre() {
               ou entre em contato para conversarmos sobre como posso contribuir para sua equipe.
             </p>
             <a
-              href="#contact"
+              href="#contato"
               className="inline-block px-8 py-3 bg-teal-400 text-gray-900 font-bold rounded-lg shadow-md hover:bg-teal-300 transition-all"
             >
               Entre em Contato
