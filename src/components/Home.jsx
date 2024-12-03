@@ -15,20 +15,20 @@ export default function Home() {
         <div className="p-4">
           <a href="#home" title="Voltar ao início">
             <img
-              className="w-40 sm:w-60 hover:opacity-80 transition-opacity"
+              className="w-48 sm:w-60 hover:opacity-80 transition-opacity"
               src="/diegologo.svg"
               alt="Logo Diego Alves"
             />
           </a>
         </div>
-        <nav className="flex flex-wrap justify-center md:justify-end text-xs sm:text-sm md:text-lg gap-2 sm:gap-4">
+        <nav className="flex flex-wrap justify-center md:justify-end text-xs sm:text-sm md:text-lg gap-4 sm:gap-4">
           {links.map((link, index) => (
             <Link key={index} link={link} />
           ))}
         </nav>
       </header>
 
-      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-4 pt-24 space-y-4 sm:p-8 sm:pt-28 md:pt-8">
+      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-4 pt-12 space-y-4 sm:p-8 sm:pt-28 md:pt-8">
         <div className="text-center space-y-4 sm:space-y-6 max-w-xs sm:max-w-3xl mx-auto px-4">
           <p className="text-teal-300 text-1xl sm:text-xl font-light animate__animated animate__fadeIn animate">
             Olá, meu nome é
