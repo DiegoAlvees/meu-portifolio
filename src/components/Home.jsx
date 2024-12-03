@@ -49,7 +49,7 @@ export default function Home() {
             Role para baixo para saber mais
           </p>
           <div className="mt-2 sm:mt-4 text-center animate__animated animate__bounce animate__delay-3s">
-            <span className="text-teal-300 text-2xl sm:text-4xl">↓</span>
+            <span className="text-teal-300 text-4xl sm:text-4xl">↓</span>
           </div>
         </div>
       </div>
