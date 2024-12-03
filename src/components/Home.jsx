@@ -11,13 +11,13 @@ export default function Home() {
 
   return (
     <section id="home" className="h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white">
-      <header className="fixed top-0 left-0 right-0 flex items-center justify-between bg-transparent text-white p-6 z-50 shadow-lg backdrop-blur-md">
-      <div>
+      <header className="flex-col-reverse md:flex-row fixed top-0 left-0 right-0 flex items-center justify-between bg-transparent text-white p-2 md:p-6 z-50 shadow-lg backdrop-blur-md">
+      <div className="p-4">
     <a href="#home" title="Voltar ao início">
       <img className="w-60 hover:opacity-80 transition-opacity" src="/diegologo.svg" alt="Logo Diego Alves" />
     </a>
   </div>
-  <nav className="space-x-8 flex flex-wrap justify-center md:justify-end">
+  <nav className="space-x-8 flex flex-wrap justify-center md:justify-end text-xs md:text-lg ">
   {links.map((link, index) => (
             <Link
               key={index}
@@ -28,7 +28,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-8 space-y-6">
+      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-8  pt-52 space-y-6  sm:pt-32 md:pt-8">
         <div className="text-center space-y-6 max-w-3xl mx-auto">
           <p className="text-teal-300 text-xl font-light animate__animated animate__fadeIn animate">
             Olá, meu nome é

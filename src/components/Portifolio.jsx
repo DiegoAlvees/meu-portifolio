@@ -24,7 +24,7 @@ export default function Portifolio() {
     },
     {
       title: "Portifolio",
-      description: "Este projeto é um portfólio pessoal desenvolvido como uma Single Page Application (SPA) utilizando React e TailwindCSS.",
+      description: "Este projeto é meu portfólio pessoal desenvolvido como uma Single Page Application (SPA) utilizando React e TailwindCSS.",
       image: "/portifolio/portifolio.png",
       liveLink: "https://meu-portifolio-pink.vercel.app/",
       codeLink: "https://github.com/DiegoAlvees/meu-portifolio",
