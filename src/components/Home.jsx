@@ -28,7 +28,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-4 pt-12 space-y-4 sm:p-8 sm:pt-28 md:pt-8">
+      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-4 pt-12 space-y-4 sm:p-8 sm:pt-28 md:pt-36">
         <div className="text-center space-y-4 sm:space-y-6 max-w-xs sm:max-w-3xl mx-auto px-4">
           <p className="text-teal-300 text-1xl sm:text-xl font-light animate__animated animate__fadeIn animate">
             Olá, meu nome é
