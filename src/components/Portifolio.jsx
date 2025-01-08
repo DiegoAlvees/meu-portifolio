@@ -15,6 +15,13 @@ export default function Portifolio() {
       codeLink: "https://github.com/DiegoAlvees/buscador-cep",
     },
     {
+      title: "Formulário de contato",
+      description: "Projeto de um formulário de contato desenvolvido com React e TailwindCSS",
+      image: "/portifolio/formulario.png",
+      liveLink: "https://formulario-de-contato-one.vercel.app/",
+      codeLink: "https://github.com/DiegoAlvees/Formul-rio-de-contato",
+    },
+    {
       title: "Cartão interativo",
       description:
         "Este projeto foi desenvolvido como um desafio proposto pelo site Frontend Mentor. A solução foi implementada utilizando React e CSS puro. O objetivo foi reproduzir fielmente o design fornecido no desafio",
@@ -40,7 +47,7 @@ export default function Portifolio() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-gray-800 rounded-lg overflow-hidden shadow-xl transform transition-transform hover:scale-105 hover:shadow-2xl"
+            className="bg-gray-800 rounded-lg overflow-hidden shadow-xl transform transition-transform hover:scale-105 hover:shadow-2xl flex flex-col justify-between"
           >
             <div className="relative w-full h-">
               <img
@@ -49,14 +56,14 @@ export default function Portifolio() {
                 className="w-full h-full object-cover rounded-t-lg"
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow">
               <h2 className="text-2xl font-bold text-teal-400 mb-4">
                 {project.title}
               </h2>
-              <p className="text-gray-300 text-sm mb-6">
+              <p className="text-gray-300 text-sm mb-6 flex-grow">
                 {project.description}
               </p>
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center mt-auto">
                 <a
                   href={project.liveLink}
                   target="_blank"
