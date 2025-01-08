@@ -37,7 +37,7 @@ export default function Home() {
             Diego Alves<span className="text-teal-300">.</span>
           </h1>
           <h2 className="text-4xl sm:text-5xl text-teal-100 font-semibold animate__animated animate__fadeIn animate__delay-2s">
-            Desenvolvedor Front-End Júnior
+            Desenvolvedor Front-End
           </h2>
           <p className="mt-4 text-1xl sm:text-lg text-teal-300 animate__animated animate__fadeIn animate__delay-2s">
             Meu objetivo é criar interfaces digitais que inspirem, conectem e
