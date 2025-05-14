@@ -8,17 +8,14 @@ export default function Sobre() {
               Prazer, sou{" "}
               <span className="font-bold text-teal-400">Diego Alves de Souza</span>
               , um
-              <span className="font-semibold text-teal-400"> desenvolvedor Front-End</span> apaixonado por tecnologia e
-              design. Estou em constante aprendizado e busco minha{" "}
-              <span className="font-bold text-teal-400">primeira oportunidade profissional</span> para colocar em prática os
-              conhecimentos adquiridos, crescer como desenvolvedor e fazer parte de projetos que impactem positivamente a
-              experiência do usuário.
+              <span className="font-semibold text-teal-400"> desenvolvedor Front-End</span> com paixão por tecnologia e design. {" "}
+              Busco constantemente aplicar meus conhecimentos em soluções que valorizem a experiência do usuário.
+              
             </p>
             <p className="text-lg leading-relaxed">
-              Tenho conhecimento em tecnologias como{" "}
+              Tenho domínio de tecnologias como{" "}
               <span className="text-teal-400">React</span>, <span className="text-teal-400">JavaScript</span>, e{" "}
-              <span className="text-teal-400">TailwindCSS</span>, e sou motivado a enfrentar novos desafios que contribuam
-              para meu crescimento profissional e para o sucesso da equipe.
+              <span className="text-teal-400">TailwindCSS</span>, entre outras. Sou motivado por desafios que impulsionam meu crescimento profissional e agregam valor à equipe.
             </p>
             <p className="text-lg leading-relaxed">
               Confira meus{" "}

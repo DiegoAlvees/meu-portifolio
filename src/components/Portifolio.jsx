@@ -1,11 +1,11 @@
 export default function Portifolio() {
   const projects = [
     {
-      title: "Cronos Collection: Catálogo de Relógios",
-      description: "Neste projeto, desenvolvi o front-end de uma loja virtual de relógios, utilizando React Router DOM para implementar a navegação entre páginas.",
-      image: "/portifolio/cronos-collection.png",
-      liveLink: "https://cronos-collection.vercel.app/",
-      codeLink: "https://github.com/DiegoAlvees/Cronos-collection",
+      title: "Noah's Burguer",
+      description: "Uma hamburgueria online desenvolvida com React.js e TailwindCSS, o usuário pode navegar pelo cardápio, adicionar itens ao carrinho e finalizar o pedido de forma intuitiva. Ao concluir a compra, todos os dados do pedido são enviados diretamente para o WhatsApp da loja",
+      image: "/portifolio/hamburgueria.png",
+      liveLink: "https://hamburgueria-six-delta.vercel.app/",
+      codeLink: "https://github.com/DiegoAlvees/Hamburgueria",
     },
     {
       title: "Buscador de Localização com CEP",
@@ -14,6 +14,14 @@ export default function Portifolio() {
       liveLink: "https://buscador-cep-gold.vercel.app/",
       codeLink: "https://github.com/DiegoAlvees/buscador-cep",
     },
+    {
+      title: "Cronos Collection: Catálogo de Relógios",
+      description: "Neste projeto, desenvolvi o front-end de uma loja virtual de relógios, utilizando React Router DOM para implementar a navegação entre páginas.",
+      image: "/portifolio/cronos-collection.png",
+      liveLink: "https://cronos-collection.vercel.app/",
+      codeLink: "https://github.com/DiegoAlvees/Cronos-collection",
+    },
+    
     {
       title: "Formulário de contato",
       description: "Projeto de um formulário de contato desenvolvido com React e TailwindCSS",
