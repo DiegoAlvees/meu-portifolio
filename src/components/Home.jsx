@@ -5,7 +5,7 @@ export default function Home() {
     { text: "", target: "home" },
     { text: "Sobre mim", target: "sobre" },
     { text: "Skills", target: "skills" },
-    { text: "Portifólio", target: "portifolio" },
+    { text: "Portfólio", target: "portfolio" },
     { text: "Contato", target: "contato" },
   ];
 
