@@ -37,8 +37,8 @@ export default function Sobre() {
   
           <div className="w-full md:w-1/2 flex justify-center pb-8">
             <img
-              className="w-64 h-64 rounded-full border-8 border-teal-400 shadow-lg transform transition-transform hover:scale-105"
-              src="/minha-foto.jpg"
+              className="w-72  rounded-full border-2 border-teal-400 shadow-lg transform transition-transform hover:scale-105"
+              src="/minha-foto.png"
               alt="Minha Foto"
             />
           </div>
