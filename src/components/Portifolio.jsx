@@ -1,8 +1,15 @@
 export default function Portifolio() {
   const projects = [
     {
+      title: "NanaBem",
+      description: "Aplicação PWA desenvolvida com React, pensada para uso principalmente em dispositivos móveis, que permite registrar e acompanhar atividades diárias de um bebê (como amamentação, sono e trocas de fralda). O aplicativo pode ser instalado diretamente no celular, oferecendo uma experiência semelhante a apps nativos.",
+      image: "/portifolio/diario-noah.png",
+      liveLink: "https://diario-bebe.vercel.app/",
+      codeLink: "https://github.com/DiegoAlvees/diario-bebe",
+    },
+    {
       title: "Noah's Burguer",
-      description: "Uma hamburgueria online desenvolvida com React.js e TailwindCSS, o usuário pode navegar pelo cardápio, adicionar itens ao carrinho e finalizar o pedido de forma intuitiva. Ao concluir a compra, todos os dados do pedido são enviados diretamente para o WhatsApp da loja",
+      description: "Aplicação web desenvolvida com React.js e TailwindCSS. Permite que o usuário navegue pelo cardápio, adicione itens ao carrinho e finalize pedidos de forma intuitiva. Ao concluir a compra, todos os dados do pedido são enviados diretamente para o WhatsApp da loja.",
       image: "/portifolio/hamburgueria.png",
       liveLink: "https://hamburgueria-six-delta.vercel.app/",
       codeLink: "https://github.com/DiegoAlvees/Hamburgueria",
